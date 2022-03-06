@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "LeagueGothic";
+  format: "truetype";
+  src: url("../fonts/League_Gothic/static/LeagueGothic/LeagueGothic-Regular.ttf");
+}
+
+body {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+#wrapper {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  img {
+    margin: 0 auto;
+    width: 500px;
+  }
+
+  #text {
+    text-align: center;
+    font-family: "LeagueGothic";
+    font-size: 48px;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "author": "@brunoviera",
+  "name": "esbuild_skeleton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=development node esbuild.js",
+    "build": "NODE_ENV=prod node esbuild.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.25",
+    "esbuild-plugin-copy": "^0.5.1",
+    "esbuild-sass-plugin": "^2.2.4"
+  }
+}
