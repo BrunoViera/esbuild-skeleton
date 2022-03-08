@@ -186,6 +186,11 @@ esbuild-plugin-copy@^0.5.1:
     fs-extra "^10.0.1"
     globby "^11.0.3"
 
+esbuild-plugin-manifest@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/esbuild-plugin-manifest/-/esbuild-plugin-manifest-0.5.0.tgz#01831ff00069ecf6035dc9bf3f6eec3ccfd9a434"
+  integrity sha512-AdmlFxiUXAaFmpxwno7qq96OAeJUUoxzJPPlLpMfcs9NwjvRI4Lg7htohb/2pi/t4BPdAuoj2D0vNYql5yhIhg==
+
 esbuild-sass-plugin@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/esbuild-sass-plugin/-/esbuild-sass-plugin-2.2.4.tgz#8654098ef3eb7ea8d6b088c4c4143f4eb0d21d0a"

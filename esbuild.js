@@ -2,6 +2,7 @@ import { env } from "process";
 import { build } from "esbuild";
 import { copy } from "esbuild-plugin-copy";
 import { sassPlugin } from "esbuild-sass-plugin";
+import manifestPlugin from "esbuild-plugin-manifest";
 
 const PROD = env.NODE_ENV === "prod";
 
@@ -31,6 +32,7 @@ const PROD = env.NODE_ENV === "prod";
         ],
       }),
       sassPlugin(),
+      // manifestPlugin(),
     ],
   });
 })();
