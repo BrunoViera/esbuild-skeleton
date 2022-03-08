@@ -1,8 +1,16 @@
 {
-  "author": "@brunoviera",
+  "author": "Bruno Viera brunovierag@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrunoViera/esbuild-skeleton"
+  },
   "name": "esbuild_skeleton",
   "version": "1.0.0",
-  "main": "index.js",
+  "keywords": [
+    "esbuild",
+    "skeleton",
+    "symfony framwork"
+  ],
   "license": "MIT",
   "type": "module",
   "scripts": {
